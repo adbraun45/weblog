@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.header_text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.week {
+    font-size: 3em;
+}
+
+.date {
+    font-size: 1em;
+}
+
+body {
+    background-color: rgb(210, 210, 211);
+}
+
+main {
+    position: absolute;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    left: 0;
+    right: 0;
+    height: 90%;
+    
+    background-color: white;
+}
